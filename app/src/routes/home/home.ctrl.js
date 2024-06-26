@@ -1,4 +1,4 @@
-const hello =(req, res)=>{
+const home =(req, res)=>{
         res.render ('home/index')
     };
 
@@ -6,4 +6,4 @@ const login =(req, res)=>{
     res.render('home/login')
 };
 
-module.exports = {hello, login}
+module.exports = {home, login}
